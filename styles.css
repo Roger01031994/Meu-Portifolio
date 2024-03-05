@@ -9,6 +9,7 @@ body {
   height: 100vh;
   width: 100vw;
   overflow-x: hidden;
+  left: 7%;
 }
 
 
@@ -16,8 +17,9 @@ body {
   height: 100vh;
   width: 100%;
   background: url(./img/background.jpeg);
-  background-color: #191919;
   background-size: cover;
+  background-position: center;
+  background-color: #191919;
 }
 
 nav {
@@ -50,16 +52,31 @@ li {
 
 li:hover {
   color: #f9004d;
+  transition: 0.5s;
 }
 
-.container-filho {
+.meu-nome {
   display: flex;
   justify-content: flex-start;
-  margin-top: 130px;
+  margin-top: 150px;
   align-items: start;
   height: 100vh;
   flex-direction: column;
-  font-size: 40px;
+  font-size: 36px;
   color: #fff;
-  margin-left: 40px;
+  margin-left: 50px;
+}
+
+h1 span {
+  color: #f9004d;
+} 
+.meu-nome h3 {
+  color: white;
+  font-size: 26px;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  margin: 80px 0;
 }
